@@ -29,7 +29,7 @@ const Screen02 = ({ route, navigation }) => {
                 />
                 <View style={styles.productInfo}>
                     <Text style={[styles.text, styles.productName]}>
-                        Điện Thoại Vsmart Joy 3 Hàng chính hãng
+                        {product.title}
                     </Text>
 
                     <Text style={[styles.text, styles.productColor]}>

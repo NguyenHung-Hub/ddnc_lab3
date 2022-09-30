@@ -18,6 +18,8 @@ const Screen01 = ({ route, navigation }) => {
         imageChoose != null ? imageChoose : product.colors[0].imagePath;
     console.log({ imageChoose });
 
+    const numberColor = product.colors.length;
+
     return (
         <View style={styles.wrapper}>
             <View style={styles.wrapperTop}>
@@ -48,7 +50,7 @@ const Screen01 = ({ route, navigation }) => {
                     <Image source={question} style={styles.iconQuestion} />
                 </View>
                 <HButton
-                    text="4 MÀU-CHỌN MÀU"
+                    text={`${numberColor} MÀU-CHỌN MÀU`}
                     style={styles.chooseColorBtn}
                     radius={50}
                     borderColor="#000"

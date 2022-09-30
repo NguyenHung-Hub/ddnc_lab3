@@ -68,7 +68,7 @@ export const phones = [
     },
     {
         id: 3,
-        title: "Điện Thoại Samsung Hàng chính hãng",
+        title: "Điện Thoại Samsung S22 Hàng chính hãng",
         name: "Samsung S22",
         price: 29900000,
         colors: [

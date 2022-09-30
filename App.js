@@ -45,7 +45,9 @@ export default function App() {
                         component={Screen01}
                     />
                     <Stack.Screen
-                        options={{ animation: "slide_from_right" }}
+                        options={{
+                            animation: "slide_from_right",
+                        }}
                         name="Lab3c_Screen02"
                         component={Screen02}
                     />
